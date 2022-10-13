@@ -1,0 +1,680 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f6dbe6;
+}
+.icon-wrapper [aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+.icon-wrapper [aos="fade"].aos-animate {
+    opacity: 1;
+}
+/*.......HEADER...........*/
+.banner-home {
+    background-image: url("../Images/slide1.png");
+    height: 115vw;
+    background-size: cover;
+    background-position: center;
+}
+#smallTitle {
+    font-size: 6.3vw;
+    font-family: 'Roboto Condensed';
+    font-weight: 100;
+    color: white;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-bottom: auto;
+    margin-top: 0;
+    box-sizing: border-box;
+    text-align: left;
+    padding-top: 35%;
+}
+#title {
+    font-size: 12vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 90%;
+    margin-top: auto;
+    margin-right: 8%;
+    margin-left: 8%;
+    box-sizing: border-box;
+    margin-bottom: auto;
+}
+#titleDescription {
+    text-align: left;
+    font-family: 'Caveat';
+    line-height: 5vw;
+    color: white;
+    font-size: 6.5vw;
+    font-weight: 100 !important;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 1vw;
+}
+/*....NAV BAR MOBILE FIRST...*/
+.navigation {
+    width: 100%;
+    height: 60px;
+    background: #7B253D;
+	z-index: 1000;
+}
+.nav-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #7B253D;
+    height: 60px;
+    width: 60px;
+}
+.nav-container {
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    position: relative;
+    padding: 60px 0 15px;
+	z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul li {
+    float: none;
+}
+nav ul li a, nav ul li a:visited {
+    font-family: 'Roboto condensed';
+     font-weight: 100;
+    font-size: 4.8vw;
+    display: block;
+    padding: 15px;
+    line-height: 20px;
+    background:#7B253D;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+/*hovering over a button*/
+nav ul li a:hover, nav ul li a:visited:hover {
+    background:#565264;
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 2px;
+    content: '▾';
+}
+
+/*BURGER TO X ANIMATION*/
+#nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 4px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+.sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        margin-top: 0px;
+    }
+/*.sticky + .content {
+        padding-top: 20px;
+    }*/
+
+/*.............PROJECTS SECTION..................*/
+
+#r-left {
+    min-height: 304px;
+    background: no-repeat center url("../Images/experienceART.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#s-right {
+    min-height: 304px;
+    background: no-repeat center url("../Images/headerG.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#t-left {
+    min-height: 304px;
+    background: no-repeat center url("../Images/sulisTesting.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#u-right {
+    min-height: 304px;
+    background: no-repeat center url("../Images/poster.jpg");
+    background-size: cover;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+.quote {
+    font-family: 'Caveat';
+    font-weight: 100;
+    font-size: 7vw;
+    line-height: 7vw;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    color: #7B253D;
+}
+.topborder {
+    border-top: solid;
+    color: #7B253D;
+    border-top-width: 0.2vw;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+
+.Titles {
+    color: #565264;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+	margin-bottom: 8vw;
+}
+
+.tableTextR {
+    font-family: 'Roboto', sans-serif;
+    color: #565264;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+	margin:10vw;
+}
+.tableTextL {
+    font-family: 'Roboto', sans-serif;
+    color: #565264;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+	margin:10vw;
+}
+
+b, strong {
+    font-family: 'Caveat';
+    font-size: 7.9vw;
+    color: #7B253D;
+    font-weight: normal !important; 
+}
+.buttonBox {
+    text-align: center;
+    margin-bottom: 15vw;
+}
+.button {
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color:#7B253D;
+    font-size: 3.5vw;
+    letter-spacing: 0.2vw;
+    box-shadow: 1px 1px 5px 0 #565264;
+}
+.button:hover {
+    background-color: #565264;
+}
+.footer-distributed {
+    background-color: #565264;
+    display: block;
+    width: 100%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+.footer-links {
+    font-family: 'Roboto Condensed';
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: #AC93A5;
+    text-align: center;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 4.5vw;
+}
+.email {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+.email a {
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+    font-size: 4.8vw;
+    color: #AC93A5;
+}
+@media (min-width: 478px) {
+    .banner-home {
+        height: 75vw;
+    }
+    #smallTitle {
+        font-size: 4.8vw;
+        font-weight: 100;
+        padding-top: 22%;
+        margin-left: 12%;
+    }
+    #title {
+        font-size: 8.5vw;
+        margin-left: 12%;
+    }
+    #titleDescription {
+        font-size: 5vw;
+        margin-left: 12%;
+        line-height: 4vw;
+    }
+/*.......navigation bar........*/
+    nav ul li a, nav ul li a:visited {
+        font-size: 3.7vw;
+        padding: 15px;
+        line-height: 20px;
+    }
+    /*..........PROJECTS SECTION.................*/
+   .quote {
+        font-size: 4.5vw;
+        line-height: 5vw;
+	    margin-left: 8%;
+        margin-right: 8%;
+    }
+	.topborder {
+    border-top-width: 0.1vw;
+    margin-left: 36%;
+    margin-right: 36%;
+}
+    .Titles {
+        font-size: 5.2vw;
+		margin-bottom: 5vw;
+    }
+
+    .tableTextL {
+        font-size: 2.6vw;
+        line-height: 4.3vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    .tableTextR {
+        font-size: 2.6vw;
+        line-height: 4.3vw;
+        margin-top: 8vw;
+        margin-bottom: 8vw;
+        margin-left: 13%;
+        margin-right: 13%;
+    }
+    strong {
+        font-size: 4.5vw;
+    }
+    #r-left {
+        min-height: 354px;
+    }
+    #s-right {
+        min-height: 354px;
+    }
+    #t-left {
+        min-height: 354px;
+    }
+    #u-right {
+        min-height: 354px;
+    }
+    .buttonBox {
+        margin-bottom: 10vw;
+    }
+    .button {
+        font-size: 2.1vw;
+		border-radius: 7px;
+		padding:12px 14px;
+    }
+    .footer-distributed {
+        margin-top: 0vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 5vw;
+    }
+    .footer-links a {
+        font-size: 3vw;
+    }
+    .email {
+        margin-bottom: 5vw;
+    }
+    .email a {
+        font-size: 3.3vw;
+    }
+}
+@media (min-width: 767px) {
+    .banner-home {
+        height: 60vw;
+    }
+    #smallTitle {
+        font-size: 4vw;
+        margin-left: 15%;
+        padding-top: 21%;
+    }
+    #title {
+        font-size: 6.8vw;
+        margin-left: 15%;
+    }
+    #titleDescription {
+        font-size: 3.6vw;
+        margin-left: 15%;
+        line-height: 2.5vw;
+    }
+    /*.......NAVIGATION BAR........*/
+    .nav-list {
+        display: flex !important;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .navigation {
+        height: 50px;
+        width: 80%;
+        margin-top: -4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 1px 1px 5px 1px #7B253D;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        position: relative;
+        flex: 1;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-weight: 300;
+        font-size: 2.3vw;
+        padding: 5px 5px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .sticky {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+    /*...............PROJECTS SECTION...........*/
+  .quote {
+        font-size: 3.6vw;
+        line-height: 4.2vw;
+        margin-left: 13%;
+        margin-right: 13%;
+	    margin-top:6vw;
+	    margin-bottom: 6vw;
+    }
+   .topborder {
+        margin-left: 38%;
+        margin-right: 38%;
+	   margin-bottom: 0;
+    }
+    .Titles {
+        margin-bottom: 5vw;
+        font-size: 4.2vw;
+    }
+
+    .tableTextL {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 7vw;
+        margin-bottom: 5vw;
+    }
+    .tableTextR {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-top: 7vw;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-bottom: 5vw;
+    }
+    strong {
+        font-size: 3.5vw;
+    }
+    #r-left {
+        min-height: 440px;
+    }
+    #s-right {
+        min-height: 440px;
+    }
+    #t-left {
+        min-height: 440px;
+    }
+    #u-right {
+        min-height: 440px;
+    }
+    .button {
+        font-size: 1.4vw;
+		border-radius: 7px;
+		padding:12px 15px;
+    }
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .footer-links a {
+        font-size: 2.1vw;
+    }
+    .email {
+        margin-bottom: 3vw;
+    }
+    .email a {
+        font-size: 2.4vw;
+    }
+}
+@media (min-width: 1024px) {
+    .banner-home {
+        height: 41vw;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    #smallTitle {
+        font-size: 2.7vw;
+        margin-left: 17%;
+        padding-top: 13%;
+    }
+    #title {
+        font-size: 4.8vw;
+        margin-left: 17%;
+        margin-bottom: 0vw;
+    }
+    #titleDescription {
+        font-size: 2.6vw;
+        margin-left: 17%;
+        line-height: 0.5vw;
+    }
+    /*.......NAVIGATION BAR.........*/
+    .navigation {
+        height: 60px;
+        margin-top: -2.5%;
+    }
+    nav {
+        padding: 0;
+    }
+    .sticky {
+        margin-top: 0%;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-size: 1.7vw;
+        line-height: 50px;
+    }
+
+    /*...........PROJECTS SECTION........*/
+      .quote {
+        font-size: 2.6vw;
+        line-height: 3vw;
+		 margin-left:20%;
+		margin-right:20%;
+    }
+    .topborder {
+        margin-right: 43%;
+        margin-left: 43%;
+    }
+    .Titles {
+        font-size: 3vw;
+		margin-bottom: 3vw;
+    }
+
+    .tableTextR {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-top: 0vw;
+        margin-bottom: 3vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    .tableTextL {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-top: 0vw;
+        margin-bottom: 3vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    strong {
+        font-size: 2.8vw;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    #section-a .content-text, #section-f .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    #section-a .content-text p, #section-f .content-text p {
+        padding-top: 0;
+    }
+    .content-wrap, #section-b ul {
+        grid-column: 2/4;
+    }
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+    #section-s.grid div:nth-of-type(1) {
+        order: 2; /* This is the image. Make it go to the right. */
+    }
+    #section-s.grid div:nth-of-type(2) {
+        order: 1; /* This is the text. Make it go to the left. */
+    }
+    #section-u.grid div:nth-of-type(1) {
+        order: 2; /* This is the image. Make it go to the right. */
+    }
+    #section-u.grid div:nth-of-type(2) {
+        order: 1; /* This is the text. Make it go to the left. */
+    }
+    #section-r {
+        align-items: center;
+    }
+    #section-s {
+        align-items: center;
+    }
+    #section-t {
+        align-items: center;
+    }
+    #section-u {
+		padding-bottom: 5vw;
+        align-items: center;
+    }
+    #r-left {
+        min-height: 550px;
+        background-size: cover;
+    }
+    #s-right {
+        min-height: 550px;
+        background-size: cover;
+    }
+    #t-left {
+        min-height: 550px;
+        background-size: cover;
+    }
+    #u-right {
+        min-height: 550px;
+        background-size: cover;
+    }
+    .buttonBox {
+        margin-bottom: 0;
+    }
+    .button {
+        font-size: 0.9vw;
+		padding:14px 13px;
+    }
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
+    .footer-links a {
+        font-size: 1.5vw;
+    }
+    .email {
+        margin-bottom: 2vw;
+    }
+    .email a {
+        font-size: 1.7vw;
+    }
+}

@@ -1,0 +1,1882 @@
+@charset "utf-8";
+/* CSS Document */
+/*..............GENERAL ITEMS - MOBILE....................*/
+body {
+    margin: 0;
+	width: 100%;
+    padding: 0;	   
+	overflow-x: hidden;
+    background-color: #F9F5E8;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5vw;
+}
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+}
+.topborder {
+    border-top: solid;
+    color: white;
+    border-top-width: 0.3vw;
+    margin-left: 32%;
+    margin-right: 32%;
+}
+.Titles {
+    color: #5C3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+h2 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 1vw;
+    font-size: 6.1vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+    margin-bottom: 10vw;
+    font-weight: 400;
+}
+h3 {
+    font-family: 'Caveat';
+    font-size: 8.5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5 {
+    color: #5C3E3E;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 6vw;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.WWH {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+	line-height: 5.5vw;
+    font-size: 4vw; 
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5vw;
+    word-break: keep-all;
+}
+.quote {
+    font-family: 'Caveat';
+    font-weight: 300;
+    font-size: 7vw;
+    line-height: 8vw;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10vw;
+    padding-top: 10vw;
+}
+.tableText {
+    font-family: 'Roboto', sans-serif;
+    color: #5C3E3E;
+    display: block;
+    text-align: center;
+	line-height: 5.5vw;
+    font-size: 4vw;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5vw;
+	margin-top:5vw;
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5vw;
+    color: #5C3E3E;
+}
+.tableTextR {
+    font-family: 'Roboto', sans-serif;
+    color: #5C3E3E;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.tableTextL {
+    font-family: 'Roboto', sans-serif;
+    color: #5C3E3E;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-top: 5vw;
+    margin-bottom: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/*...............HEADER..................*/
+.banner-home {
+    background-image: url("../Images/headerS.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 115vw;
+}
+#smallTitle {
+    font-size: 8.9vw;
+    font-weight: 100;
+    font-family: 'Roboto Condensed';
+    color: #a35304;
+    margin-right: 8%;
+    margin-left: 12%;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+    padding-top: 20%;
+}
+#title {
+    font-size: 12.5vw;
+    color: #a35304;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 60%;
+    margin-top: auto;
+    margin-right: 8%;
+    margin-left: 12%;
+    margin-bottom: auto;
+}
+#slash {
+    color: #219653;
+}
+#titleDescription {
+    text-align: left;
+    font-family: 'Caveat';
+    color: #219653;
+    font-size: 6.4vw;
+    font-weight: 500;
+    margin-top: 1.5vw;
+    margin-left: 12%;
+    margin-right: 15%;
+}
+
+/*....NAV BAR MOBILE FIRST...*/
+.navigation {
+    width: 100%;
+    height: 60px;
+    background:#324b3d;
+    z-index: 1000;
+}
+.nav-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#324b3d;
+    height: 60px;
+    width: 60px;
+}
+.nav-container {
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    position: relative;
+    padding: 60px 0 15px;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul li {
+    float: none;
+}
+nav ul li a, nav ul li a:visited {
+    font-family: 'Roboto condensed';
+    font-weight: 100;
+    font-size: 4.8vw;
+    display: block;
+    padding: 15px;
+    line-height: 20px;
+    background: #324b3d;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+/*hovering over a button*/
+nav ul li a:hover, nav ul li a:visited:hover {
+    background:#e9a522;
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 2px;
+    content: '▾';
+}
+.nav-dropdown {
+    position: static;
+    display: none;
+}
+/*size of the dropdown box*/
+nav ul li ul li {
+    min-width: 100px;
+}
+/*text inside the dropdown*/
+nav ul li ul li a {
+    font-size: 4vw;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+}
+/*hovering over a button*/
+nav ul li ul li a:hover, nav ul li ul li a:visited:hover {
+    background: #e9a522;
+}
+/*BURGER TO X ANIMATION*/
+#nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 4px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.sticky + .content {
+    padding-top: 20px;
+}
+/*.............BEIGE SECTION............*/
+#beige {
+    background-color: #F9F5E8;
+    padding-bottom: 10vw;
+}
+#beige .quote {
+    color: #5C3E3E;
+}
+#beige .Titles {
+	font-size: 9vw;
+    color: #219653;
+    margin-bottom: 2vw;
+}
+#share {
+    color: #5C3E3E;
+}
+#beige strong {
+    color: #324B3D;
+    font-size: 4vw;
+}
+#beige h2 {
+    color: #5C3E3E;
+}
+#beige h3 {
+    color: #219653;
+}
+.rowI {
+    margin-bottom: 5vw;
+}
+.row {
+    width: 100%;
+}
+.column {
+    width: 100%;
+}
+.mobileP {
+    display: none;
+}
+.columnI {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.columnI img {
+    height: 45vw;
+}
+#beige .WWH {
+    color: #5C3E3E;
+}
+.phones [aos="fade"] {
+    opacity: 0;
+    transition-property: opacity;
+}
+.phones [aos="fade"].aos-animate {
+    opacity: 1;
+}
+/*......................GREEN SECTION....................*/
+#green {
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    background-color: #425d4e;
+}
+#green .topborder {
+    color: #FAFF01;
+}
+#green .Titles {
+    margin-bottom: 5vw;
+	color: #F9F5E8;
+}
+#green .tableText {
+    color: #F9F5E8;
+}
+#g-left {
+    min-height: 344px;
+    background: no-repeat center url("../Images/peerbyL.png");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    margin: 0vw;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#h-right {
+    min-height: 344px;
+    background: no-repeat center url("../Images/weShare.png");
+    background-size: contain;
+    background-position: center;
+    padding: 0vw;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+.quoteBox {
+    color: #FAFF01;
+    font-family: 'Caveat';
+    font-weight: 100;
+    font-size: 6vw;
+    line-height: 6.5vw;
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 5vw;
+}
+/*..............YELLOW SECTION..............*/
+#yellow {
+    padding-top: 10vw;
+    padding-bottom: 20vw;
+    background-color: #F5E2BB;
+}
+#yellow .topborder {
+    color: #219653;
+}
+#yellow p {
+    color: #5C3E3E;
+}
+
+/*.............CAROUSEL AND DOTS....................*/
+#yellow .carousel-container {
+    margin-top: 7vw;
+}
+#yellow .carousel-cell img {
+    height: 380px;
+    margin: 0px;
+}
+#yellow .carousel-status {
+    display: none;
+}
+#yellow .flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: transparent;
+    border: 1px solid #5C3E3E;
+}
+
+/* fill-in selected dot */
+#yellow .flickity-page-dots .dot.is-selected {
+    background: #5C3E3E;
+}
+
+/*.........LIGHT GREEN.................*/
+#lightGreen {
+    background-color: #bed5c7;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#lightGreen .topborder {
+    color: #203228;
+}
+#lightGreen .Titles {
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom: 5vw;
+}
+#lightGreen strong {
+    color:#203228;
+    font-size: 4vw;
+	font-weight: 500;
+}
+#l-left {
+    min-height: 304px;
+    background: no-repeat center url("../Images/design.png");
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#m-right {
+    min-height: 304px;
+    background: no-repeat center url("../Images/figma.jpg");
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#n-left {
+    min-height: 304px;
+    background: no-repeat center url("../Images/prototyping.jpg");
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#lightGreen .quote {
+    color: #203228;
+    font-size: 7vw;
+    line-height: 7vw;
+    margin-bottom: 10vw;
+    padding-top: 0vw;
+}
+
+/*....................RED SECTION........................*/
+#red {
+    background-color: #DCD8DA;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#red .Titles {
+    color: #6E1B46;
+    margin-bottom: 2vw;
+}
+#red strong {
+    color: #6E1B46;
+    font-size: 4vw;
+}
+#red h2 {
+    color: #5C3E47;
+    font-weight: 300;
+}
+#red h3 {
+    color: #6E1B46;
+}
+.rowJ {
+    margin-bottom: 5vw;
+}
+.columnJ {
+    text-align: center;
+    margin-left: 4.5%;
+    margin-right: auto;
+}
+.columnJ img {
+    height: 45vw;
+}
+#red .WWH {
+    color: #5C3E3E;
+}
+/*............PINK SECTION.............*/
+#pink{
+	background-color:#F5DCDC;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#pink .tableText {
+    color:#350C21;
+}
+#pink .quote {
+    color: #6E1B46;
+    font-family: 'Caveat';
+    font-weight: 300;
+    font-size: 6.5vw;
+    line-height: 7vw;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10vw;
+    padding-top: 5vw;
+}
+#pink h3{
+	margin-top: 2vw;
+	color:#6E1B46;
+}
+
+#o-left {
+	min-height: 300px;
+    background: no-repeat center url("../Images/sulispersona.jpg");
+    background-size: contain;
+    background-position: center;
+	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+	box-sizing: border-box;
+}
+#p-right {
+    min-height: 300px;
+    background: no-repeat center url("../Images/sulisTesting.jpg");
+    background-size: contain;
+    background-position: center;
+	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#q-left {
+    min-height: 300px;
+    background: no-repeat center url("../Images/affinity.jpg");
+    background-size: contain;
+    background-position: center;
+	filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+/*...............MUSTARD SECTION............*/
+#mustard{
+	background-color:#3B3E3B;
+	padding-bottom: 10vw;
+}
+
+#containerIMG  {
+	background-image: url("../Images/codesign.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	height:50vw;
+	width:100%;
+	position: relative;
+}
+#mustard .Titles{
+	font-size:12vw;
+	font-weight: 700;
+	color: white;
+  	display: flex;
+  	justify-content: center;
+ 	align-items: center;
+	height:50vw;
+}
+
+#mustard h3{
+	color:#E9A522;
+}
+#mustard .WWH{
+	color:rgb(237,223,196);
+}
+#mustard p {
+	margin-top: 15vw;
+    color: rgb(237,223,196);
+}
+
+/*.............CAROUSEL AND DOTS....................*/
+#mustard .carousel-container {
+    margin-top: 7vw;
+}
+
+#mustard .carousel-cell img {
+    height: 380px;
+    margin: 0px;
+}
+#mustard .carousel-status {
+    display: none;
+}
+
+#mustard .flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: transparent;
+    border: 1px solid #E9A522;
+}
+
+/* fill-in selected dot */
+#mustard .flickity-page-dots .dot.is-selected {
+    background: #E9A522;
+}
+/*........FOOTER.....*/
+.footer-distributed {
+    background-color: #17231C;
+    display: block;
+    width: 100%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+.footer-links {
+	font-family:'Roboto Condensed';
+    margin-top: 5vw;
+	margin-bottom: 3vw;
+    color: #E9A522;
+    text-align: center;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 4.5vw;
+}
+.email {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+.email a {
+	font-family:'Roboto Condensed';
+    text-decoration: none;
+    font-size: 4.8vw;
+    color: #E9A522;
+}
+
+
+@media (min-width: 478px) {
+    /*..........HEADER.................*/
+    .banner-home {
+        background-image: url("../Images/headerW.jpg");
+        height: 55vw;
+    }
+    #smallTitle {
+        font-size: 6vw;
+        margin-left: 8%;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 10%;
+    }
+    #title {
+        font-size: 8.5vw;
+        line-height: 50%;
+        margin-top: auto;
+        margin-left: 8%;
+        margin-bottom: auto;
+    }
+    #titleDescription {
+        font-size: 4.3vw;
+        margin-top: 1vw;
+        margin-left: 8%;
+        margin-right: 12%;
+    }
+    /*.......navigation bar........*/
+    nav ul li a, nav ul li a:visited {
+        font-size: 3.7vw;
+        padding: 15px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+    /*text inside the dropdown*/
+    nav ul li ul li a {
+        font-size: 3.2vw;
+        font-weight: 100;
+        padding: 15px;
+        line-height: 20px;
+    }
+    /*.................SECTION BEIGE................*/
+    #beige .quote {
+        font-weight: 100;
+        font-size: 4.5vw;
+        line-height: 5vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 8vw;
+        padding-top: 8vw;
+    }
+    #beige .Titles {
+        margin-bottom: 1.5vw;
+        font-size: 5.5vw;
+    }
+    #beige h2 {
+        line-height: 1vw;
+        font-size: 4vw;
+        margin-bottom: 8vw;
+    }
+    .columnI img {
+        height: 33vw;
+    }
+    #beige h3 {
+        font-size: 5.5vw;
+        margin-top: 0vw;
+        margin-bottom: 1.5vw;
+    }
+    #beige .WWH {
+        line-height: 3.4vw;
+        font-size: 2.5vw;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 7vw;
+		text-align: left;
+    }
+    #beige strong {
+        font-size: 2.5vw;
+    }
+    /*.........GREEN SECTION.....................*/
+    .topborder {
+        border-top-width: 0.2vw;
+        margin-left: 34%;
+        margin-right: 34%;
+        margin-bottom: 0.5vw;
+    }
+    #green .Titles {
+        margin-bottom: 5vw;
+        font-size: 4.5vw;
+    }
+    #g-left {
+        min-height: 434px;
+    }
+    .tableText {
+        line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+    #green .quoteBox {
+        font-size: 4vw;
+        line-height: 4.5vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 10vw;
+    }
+    #h-right {
+        min-height: 434px;
+    }
+    /*.....................YELLOW SECTION.......*/
+    #yellow .Titles {
+        margin-bottom: 5vw;
+        font-size: 4.5vw;
+    }
+    #yellow p {
+          line-height: 4.3vw;
+        font-size: 2.6vw;
+    }
+
+    #yellow .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #yellow .carousel-cell img {
+        display: block;
+        max-height: 400px;
+        margin: 0 auto;
+        max-width: 500px;
+        width: auto;
+    }
+
+    /*........LIGHT GREEN.....................*/
+    #lightGreen .Titles {
+        margin-bottom: 5vw;
+        font-size: 4.5vw;
+    }
+    #l-left {
+        min-height: 344px;
+    }
+    .tableTextL {
+        font-size: 2.6vw;
+        line-height: 4.3vw;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+    .tableTextR {
+        line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-top: 5vw;
+        margin-bottom: 10vw;
+    }
+    #lightGreen strong {
+        font-size: 2.6vw;
+    }
+    #lightGreen .quote {
+        font-weight: 300;
+        font-size: 4.3vw;
+        line-height: 5vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 7vw;
+        padding-top: 0;
+    }
+    /*....................RED SECTION........................*/
+    #red {
+        background-color: #DCD8DA;
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #red .Titles {
+        font-size: 6vw;
+        margin-bottom: 1.5vw;
+    }
+    #red strong {
+        font-size: 2.5vw;
+    }
+    #red h2 {
+        font-size: 4vw;
+        margin-bottom: 8vw;
+    }
+    #red h3 {
+        font-size: 6vw;
+        margin-top: 0vw;
+        margin-bottom: 1.5vw;
+    }
+    #red .WWH {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 7vw;
+		text-align: left;
+    }
+    .columnJ img {
+        height: 40vw;
+    }
+
+	/*.........PINK SECTION.....................*/
+    #pink .tableText {
+        line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 12vw;
+        margin-top: 0vw;
+}
+	#pink h3{
+		font-size:6.3vw;
+		margin-top:4vw;
+		margin-bottom: 1vw;
+}
+	#pink .quote {
+        font-weight: 300;
+        font-size: 4.5vw;
+        line-height: 5.5vw;
+        margin-left: 8vw;
+        margin-right: 8vw;
+        margin-bottom: 5vw;
+        padding-top: 0;
+    }
+    #o-left {
+        min-height: 350px;
+}
+	#p-right{
+		min-height: 350px;
+}
+	#q-left {
+        min-height: 350px;
+}
+/*...........MUSTARD SECTION.....................*/
+	#containerIMG{
+		margin-bottom:5vw;
+	}
+
+	#mustard h3 {
+        font-size: 6vw;
+        margin-top: 0vw;
+        margin-bottom: 1.5vw;
+    }
+	#mustard .WWH {
+        line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-bottom: 7vw;
+		text-align: left;
+    }
+	#mustard .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #mustard .carousel-cell img {
+        display: block;
+        max-height: 400px;
+        margin: 0 auto;
+        max-width: 500px;
+        width: auto;
+    }
+	#mustard p{
+		line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-left: 8%;
+        margin-right: 8%;
+		margin-top:10vw;
+	}
+    .footer-distributed {
+        margin-top: 0vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 5vw;
+    }
+    .footer-links a {
+        font-size: 3vw;
+    }
+    .email {
+        margin-bottom: 5vw;
+    }
+    .email a {
+        font-size: 3.3vw;
+    }
+}
+@media (min-width: 767px) {
+    /*.......................HEADER...................*/
+    .banner-home {
+        height: 50vw;
+    }
+    #smallTitle {
+        font-size: 4.7vw;
+        margin-left: 8%;
+        padding-top: 10%;
+    }
+    #title {
+        font-size: 6.5vw;
+        margin-left: 8%;
+    }
+    #titleDescription {
+        font-size: 3.7vw;
+        margin-left: 8%;
+        margin-top: 0.5vw;
+    }
+    /*.......NAVIGATION BAR........*/
+    .nav-list {
+        display: flex !important;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .navigation {
+        height: 50px;
+        width: 80%;
+        margin-top: -4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 1px 1px 5px 1px #354337;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        position: relative;
+        flex: 1;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-weight: 300;
+        font-size: 2.3vw;
+        padding: 5px 5px;
+        line-height: 40px;
+        text-align: center;
+    }
+    /*text inside the dropdown*/
+    nav ul li ul li a {
+        font-size: 2vw;
+        padding: 15px;
+        line-height: 20px;
+    }
+    .sticky {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+	
+    /*..........BEIGE SECTION.............*/
+    #beige .quote {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-bottom: 6vw;
+    }
+    #beige .Titles {
+        margin-bottom: 1vw;
+        font-size: 4.3vw;
+    }
+    #beige h2 {
+        line-height: 1vw;
+        font-size: 3.1vw;
+        margin-bottom: 8vw;
+    }
+    #beige h3 {
+        float: left;
+        font-size: 4.7vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: 0;
+        margin-left: 0;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    #beige .WWH {
+        font-size: 1.8vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+        line-height: 2.8vw;
+    }
+    #beige strong {
+        font-size: 1.8vw;
+    }
+    .columnI {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .columnI img {
+        height: 35vw;
+    }
+    .column {
+        width: 75%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        margin-top: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /*.......GREEN SECTION......*/
+    .topborder {
+        border-top-width: 0.2vw;
+        margin-left: 40%;
+        margin-right: 40%;
+    }
+    #green .Titles {
+        font-size: 4vw;
+        padding-bottom: 0vw;
+    }
+    #g-left {
+        min-height: 450px;
+    }
+	#h-right {
+        min-height: 450px;
+    }
+    .tableText {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-left: 12%;
+        margin-right: 12%
+    }
+    #green .quoteBox {
+        font-size: 3.3vw;
+        line-height: 3.8vw;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+   
+    /*.....YELLOW SECTION...........*/
+    #yellow {
+        padding-bottom: 15vw;
+    }
+    #yellow .Titles {
+        font-size: 4vw;
+        margin-bottom: 3vw;
+    }
+    #yellow p {
+        font-size: 2vw;
+        line-height: 3.2vw;
+    }
+	#yellow .carousel{
+		height:500px;
+	}
+   #yellow .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #yellow .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #yellow .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #yellow .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #yellow .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+    /*...........LIGHT GREEN SECTION.....*/
+    #lightGreen .Titles {
+        font-size: 4vw;
+    }
+    .tableTextL {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    .tableTextR {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-left: 12%;
+        margin-right: 12%;
+    }
+    #lightGreen strong {
+        font-size: 1.8vw;
+    }
+    #lightGreen .quote {
+        font-size: 3.3vw;
+        line-height: 3.8vw;
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-bottom: 10vw;
+        padding-top: 0;
+    }
+
+	/*..............RED SECTION.......................*/
+	#red .Titles {
+        margin-bottom: 1vw;
+        font-size: 4.5vw;
+    }
+    #red h2 {
+        line-height: 1vw;
+        font-size: 3.4vw;
+        margin-bottom: 6vw;
+    }
+    #red h3 {
+        float: left;
+        font-size: 4.7vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: 0;
+        margin-left: 0;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    #red .WWH {
+        font-size: 1.8vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+        line-height: 2.8vw;
+    }
+    #red strong {
+        font-size: 1.8vw;
+    }
+    .columnJ {
+        position: relative;
+        margin-left: 4.5%;
+        margin-right: auto;
+        text-align: center;
+    }
+    .columnJ img {
+        height: 40vw;
+    }
+    .column {
+        width: 75%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        margin-top: 5vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+	/*........PINK SECTION........*/
+	#pink{
+		padding-bottom: 0;
+	}
+    #pink .tableText {
+        font-size: 2vw;
+        line-height: 3.2vw;
+        margin-left: 12%;
+        margin-right: 12%
+}
+	#pink h3{
+		font-size:4.9vw;
+}
+	#pink .quote{
+		font-weight: 300;
+        font-size: 3.8vw;
+        line-height: 4.4vw;
+        margin-left: 12%;
+        margin-right: 12%;
+        padding-bottom: 10vw;
+		margin-bottom: 0;
+        padding-top: 0;
+	}
+    #o-left {
+        min-height: 450px;
+}
+	#p-right{
+		min-height: 450px;
+}
+	#q-left {
+        min-height: 450px;
+}
+
+/*...........MUSTARD SECTION.....................*/
+    #mustard .Titles {
+        font-size: 11vw;
+		height: 40vw;
+    }
+	#containerIMG{
+		height: 40vw;
+	}
+	
+	#mustard h3 {
+        float: left;
+        font-size: 4.7vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: 0;
+        margin-left: 0;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+	
+	#mustard .WWH {
+        font-size: 1.8vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+        line-height: 2.8vw;
+    }
+	#mustard p{
+		font-size: 2vw;
+		line-height: 3.2vw;
+		margin-left:12vw;
+		margin-right: 12vw;
+		margin-top: 5vw;
+	}
+    #mustard .carousel{
+		height:500px;
+	}
+   #mustard .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #mustard .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #mustard .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #mustard .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #mustard .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+	/*........FOOTER..........*/
+
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 3vw;
+		margin-bottom: 2vw;
+    }
+    .footer-links a {
+        font-size: 2.5vw;
+    }
+    .email {
+        margin-bottom: 3vw;
+    }
+    .email a {
+        font-size: 2.8vw;
+    }
+}
+@media (min-width: 1024px) { /*...............GENERAL ITEMS.............*/
+    .mobileP {
+        display: inline;
+    }
+    .video-responsive {
+        background-color: black;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 2vw;
+        overflow: hidden;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        position: relative;
+        height: 25vw;
+    }
+    .video-responsive iframe {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+    }    /*.......................HEADER...................*/
+    .banner-home {
+        background-position: center;
+        background-attachment: fixed;
+        height: 39vw;
+    }
+    #smallTitle {
+        font-size: 3.6vw;
+        margin-left: 14%;
+        padding-top: 11%;
+    }
+    #title {
+        font-size: 5vw;
+        line-height: 50%;
+        margin-left: 14%;
+    }
+    #titleDescription {
+        font-weight: 300;
+        font-size: 2.8vw;
+        margin-top: 0.5vw;
+        margin-left: 14%;
+    }
+        /*.......NAVIGATION BAR.........*/
+        .navigation {
+            height: 60px;
+            margin-top: -2.5%;
+        }
+        nav {
+            padding: 0;
+        }
+        .sticky {
+            margin-top: 0%;
+        }
+        .sticky + .content {
+            padding-top: 20px;
+        }
+        nav ul li a, nav ul li a:visited {
+            font-size: 1.7vw;
+            line-height: 50px;
+        }
+        /*text inside the dropdown*/
+        nav ul li ul li a {
+            font-size: 1.6vw;
+        }
+
+    /*..................BEIGE SECTION................*/
+    #beige .Titles {
+        font-size: 4.5vw;
+        margin-bottom: 5vw;
+    }
+    #beige .quote {
+        font-size: 2.9vw;
+        line-height: 3vw;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 0%;
+        margin-bottom: 5vw;
+        padding-top: 7vw;
+    }
+    #beige h3 {
+        font-size: 3.3vw;
+        margin: 0;
+        margin-left: 1.5vw;
+
+    }
+    #beige strong {
+        font-size: 1.3vw;
+    }
+    #beige .Titles {
+        margin-bottom: 1vw;
+    }
+
+    #beige h2 {
+        line-height: 1vw;
+        font-size: 2.6vw;
+        margin-bottom: 5vw;
+    }
+    #beige .WWH {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+    }
+    .column {
+        width: 60%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .columnI {
+        width: 80%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .columnI img {
+        height: 20vw;
+    }
+    .row {
+        margin-top: 5vw;
+        margin-bottom: 0vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    /*.........................GREEN SECTION.....................*/
+    .topborder {
+        border-top-width: 0.2vw;
+        margin-left: 41%;
+        margin-right: 41%;
+    }
+    #green {
+        padding-top: 7vw;
+    }
+    #green .Titles {
+        font-size: 3vw;
+        margin-bottom: 5vw;
+    }
+	#green .tableText {
+        text-align: left;
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
+    }
+    #green .quoteBox {
+        font-size: 2vw;
+        line-height: 2.7vw;
+        text-align: center;
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-bottom: 3vw;
+    }
+    #green #section-g {
+        margin-bottom: 3vw;
+        align-items: center;
+    }
+    #section-h {
+        align-items: center;
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+    #section-a .content-text, #section-f .content-text {
+        columns: 2;
+        column-gap: 2em;
+    }
+    #section-a .content-text p, #section-f .content-text p {
+        padding-top: 0;
+    }
+    .content-wrap, #section-b ul {
+        grid-column: 2/4;
+    }
+    .box, #main-footer div {
+        grid-column: span 2;
+    }
+    #g-left {
+        min-height: 534px;
+        margin: 0vw 0vw 0vw 4vw;
+    }
+    #g-right {
+        min-height: 434px;
+    }
+    #h-right {
+        min-height: 534px;
+        margin-right: 5vw;
+    }
+    #section-h.grid div:nth-of-type(1) {
+        order: 2; /* This is the image. Make it go to the right. */
+    }
+    #section-h.grid div:nth-of-type(2) {
+        order: 1; /* This is the text. Make it go to the left. */
+    }
+    /*...............YELLOW SECTION................*/
+    #yellow {
+        padding-top: 7vw;
+    }
+    #yellow .Titles {
+        font-size: 3vw;
+        margin-bottom: 3vw;
+    }
+    #yellow p {
+        text-align: center;
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+    }
+	    /*............CAROUSEL AND DOTS.....................*/
+	 #yellow .carousel-container {
+        margin-top: 3vw;
+	     height:550px;
+    }
+	#yellow .carousel{
+		height:550px;
+	}
+    #yellow .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #yellow .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #yellow .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #yellow .carousel-cell.is-selected:hover {
+        transform: scale(1.2);
+    }
+    #yellow .flickity-page-dots .dot {
+        height: 11px;
+        width: 11px;
+    }
+    /*..................LIGHT GREEN..................*/
+    #section-l {
+        align-items: center;
+    }
+    #section-m {
+        align-items: center;
+    }
+    #section-n {
+        align-items: center;
+    }
+    #l-left {
+        min-height: 500px;
+        background-size: contain;
+        margin-left: 3vw;
+        margin-bottom: 0vw;
+    }
+    #m-right {
+        min-height: 500px;
+        background-size: contain;
+        margin-right: 3vw;
+        margin-bottom: 0vw;
+    }
+    #n-left {
+        min-height: 450px;
+        background-size: contain;
+        margin-left: 3vw;
+    }
+    #section-m.grid div:nth-of-type(1) {
+        order: 2; /* This is the image. Make it go to the right. */
+    }
+    #section-m.grid div:nth-of-type(2) {
+        order: 1; /* This is the text. Make it go to the left. */
+    }
+    #lightGreen {
+        padding-top: 7vw;
+    }
+    #lightGreen .Titles {
+        font-size: 3vw;
+    }
+    #lightGreen .tableTextR {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    #lightGreen .tableTextL {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-top: 0vw;
+        margin-bottom: 0vw;
+        margin-left: 6vw;
+        margin-right: 6vw;
+    }
+    #lightGreen .quote {
+        font-size: 2.2vw;
+        line-height: 3vw;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 0%;
+        margin-bottom: 5vw;
+        padding-top: 7vw;
+    }
+    #lightGreen strong {
+        font-size: 1.3vw;
+    }
+
+    /*...........RED SECTION..............*/
+	#red{
+		padding-top: 7vw;
+	}
+	#red .Titles {
+        font-size: 4.5vw;
+        margin-bottom: 1vw;
+    }
+    #red .quote {
+        font-size: 2.6vw;
+        line-height: 3vw;
+        margin-left: 21%;
+        margin-right: 21%;
+        margin-top: 0%;
+        margin-bottom: 5vw;
+        padding-top: 7vw;
+    }
+    #red h3 {
+        font-family: 'Caveat';
+        float: left;
+        font-size: 3.3vw;
+        margin: 0;
+        margin-left: 1.5vw;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    #red strong {
+        font-size: 1.3vw;
+    }
+ 
+    #red h2 {
+        line-height: 1vw;
+        font-size: 2.6vw;
+        margin-bottom: 5vw;
+    }
+    #red .WWH {
+        line-height: 2vw;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+    }
+    .column {
+        width: 60%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .columnJ {
+        width: 100%;
+        position: relative;
+        margin-left: 2.5%;
+        margin-right: auto;
+        text-align: center;
+    }
+    .columnJ img {
+        height: 30vw;
+    }
+    .row {
+        margin-top: 5vw;
+        margin-bottom: 0vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+	/*........PINK SECTION........*/
+	#pink{
+		padding-top: 7vw;
+	}
+
+    #pink .tableText {
+	text-align: left;
+    line-height: 2vw;
+    font-size: 1.3vw;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 0vw;
+    margin-bottom: 0vw;
+}
+	#pink h3{
+		font-size:3.3vw;
+		margin-left:15%;
+		margin-right: 15%;
+		margin-top:0vw;
+	}
+	#pink .quote{
+		font-size: 2.2vw;
+        line-height: 3vw;
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 0%;
+        margin-bottom: 0vw;
+        padding-top: 7vw;
+	}
+    #o-left {
+        min-height: 534px;
+		margin: 0vw 0vw 0vw 4vw;
+}
+	#p-right{
+		min-height: 534px;
+		margin-right:4vw;
+} 
+	#q-left {
+        min-height: 534px;
+		margin: 0vw 0vw 0vw 4vw;
+}	
+    #pink #section-o {
+        align-items: center;
+    }
+    #section-p {
+        align-items: center;
+    }
+	#section-q{
+		align-items: center;
+	}
+	#section-p.grid div:nth-of-type(1) {
+        order: 2; /* This is the image. Make it go to the right. */
+    }
+    #section-p.grid div:nth-of-type(2) {
+        order: 1; /* This is the text. Make it go to the left. */
+    }
+	/*...........MUSTARD SECTION.....................*/
+	#containerIMG{
+		height: 27vw;
+	}
+	#mustard .Titles {
+        font-size: 8.5vw;
+		margin-left:5vw;
+		margin-right:5vw;
+		height: 27vw;
+    }
+
+	#mustard h3 {
+        font-size: 3.3vw;
+        margin: 0;
+        margin-left: 1.5vw;
+    }
+	
+	#mustard .WWH {
+       line-height: 2vw;
+        font-size: 1.2vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+    }
+
+	#mustard p{
+		font-size:1.3vw;
+		line-height: 2vw;
+		margin-left: 20vw;
+        margin-right: 20vw;
+        margin-bottom: 0;
+	}
+
+	    /*............CAROUSEL AND DOTS.....................*/
+	 #mustard .carousel-container {
+        margin-top: 3vw;
+	     height:550px;
+    }
+	#mustard .carousel{
+		height:550px;
+	}
+    #mustard .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #mustard .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #mustard .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #mustard .flickity-page-dots .dot {
+        height: 11px;
+        width: 11px;
+    }
+	.footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 2vw;
+		margin-bottom:1vw;
+    }
+    .footer-links a {
+        font-size: 1.5vw;
+    }
+    .email {
+        margin-bottom: 2vw;
+    }
+    .email a {
+        font-size: 1.7vw;
+    }
+}

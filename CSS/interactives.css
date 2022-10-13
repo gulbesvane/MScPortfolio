@@ -1,0 +1,2005 @@
+@charset "utf-8";
+/* CSS Document */
+/*mobile*/
+/*..............GENERAL ITEMS - MOBILE....................*/
+body {
+    margin: 0;
+    background-color: #DCD8DA;
+}
+.quote {
+    color: #565264;
+    font-family: 'Caveat';
+    font-size: 6.5vw;
+    line-height: 7vw;
+    text-align: center;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 10vw;
+    padding-top: 10vw;
+}
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 5vw;
+}
+.video-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: auto;
+}
+.mainTitles {
+    color: #7B253D;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 8vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Titles {
+    color: #565264;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 7vw;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+h3 {
+    color: #565264;
+    font-family: 'Caveat';
+    font-size: 8.5vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: 500;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5 {
+    color: #565264;
+    font-family: 'Caveat';
+    font-size: 8vw;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.WWH {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+	line-height: 5.5vw;
+    font-size: 4vw; 
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5vw;
+    word-break: keep-all;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 15vw;
+    color: #565264;
+}
+.mobileP {
+    display: none;
+}
+.tableTextR {
+    font-family: 'Roboto', sans-serif;
+    color: #565264;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+.tableTextL {
+    font-family: 'Roboto', sans-serif;
+    color: #565264;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-top: 0vw;
+    margin-bottom: 10vw;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+#long{
+	font-size:4vw;
+	line-height: 5.5vw;
+	margin-left: 8vw;
+    margin-right: 8vw;
+}
+
+/*.............CAROUSEL AND DOTS....................*/
+.carousel-container {
+    margin-top: 7vw;
+    height: 380px;
+    width: 100%;
+}
+.carousel-cell img {
+    height: 380px;
+    margin: 0;
+}
+.carousel-status {
+    display: none;
+}
+.flickity-page-dots {
+    margin-bottom: -1vw;
+}
+.flickity-page-dots .dot {
+    width: 8px;
+    height: 8px;
+    opacity: 1;
+    background: transparent;
+    border: 1px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: white;
+}
+
+/*...............HEADER..................*/
+.banner-home {
+    background-image: url("../Images/postit3.jpg");
+    height: 115vw;
+    background-size: cover;
+    background-position: center;
+}
+#smallTitle {
+    font-size: 6.3vw;
+    font-weight: 100;
+    font-family: 'Roboto Condensed';
+    color: white;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 0;
+    margin-bottom: auto;
+    box-sizing: border-box;
+    text-align: left;
+    padding-top: 35%;
+}
+#title {
+    font-size: 11vw;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 90%;
+    margin-top: auto;
+    margin-right: 8%;
+    margin-left: 8%;
+    box-sizing: border-box;
+    margin-bottom: auto;
+}
+#titleDescription {
+    text-align: left;
+    font-family: 'Caveat';
+    line-height: 5vw;
+    color: white;
+    font-size: 6.5vw;
+    font-weight: 100;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 1vw;
+}
+
+/*....NAV BAR MOBILE FIRST...*/
+.navigation {
+    width: 100%;
+    height: 60px;
+    background:#c65b0c;
+    z-index: 1000;
+}
+.nav-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background:#c65b0c;
+    height: 60px;
+    width: 60px;
+}
+.nav-container {
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    position: relative;
+    padding: 60px 0 15px;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul li {
+    float: none;
+}
+nav ul li a, nav ul li a:visited {
+    font-family: 'Roboto condensed';
+    font-weight: 100;
+    font-size: 4.8vw;
+    display: block;
+    padding: 15px;
+    line-height: 20px;
+    background: #c65b0c;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+/*hovering over a button*/
+nav ul li a:hover, nav ul li a:visited:hover {
+    background:#924772;
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 2px;
+    content: '▾';
+}
+.nav-dropdown {
+    position: static;
+    display: none;
+}
+/*size of the dropdown box*/
+nav ul li ul li {
+    min-width: 100px;
+}
+/*text inside the dropdown*/
+nav ul li ul li a {
+    font-size: 4vw;
+    font-weight: 100;
+    padding: 15px;
+    line-height: 20px;
+}
+/*hovering over a button*/
+nav ul li ul li a:hover, nav ul li ul li a:visited:hover {
+    background: #924772;
+}
+/*BURGER TO X ANIMATION*/
+#nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 4px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.sticky + .content {
+    padding-top: 20px;
+}
+/*.............LIGHT GREY SECTION............*/
+#grey {
+    background-color: #DCD8DA;
+    padding-bottom: 5vw;
+}
+#grey h3 {
+    color: #7B253D;
+}
+.borderTitle {
+    margin-bottom: 10vw;
+}
+.topborder {
+    border-top-style: solid;
+    border-top-width: 0.4vw;
+    border-top-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1vw;
+}
+.row{
+	margin-top:15vw;
+}
+.column {
+    width: 100%;
+}
+.WWH {
+    color: #565264;
+}
+#grey .flickity-page-dots .dot {
+    border: 1px solid #565264;
+}
+/* fill-in selected dot */
+#grey .flickity-page-dots .dot.is-selected {
+    background: #7B253D;
+}
+/*..........PINK SECTION - STAGGERED LAYOUT........................*/
+#pink {
+    background-color:rgba(247, 183, 183,0.6);
+    padding-top: 0vw;
+    padding-bottom: 10vw;
+}
+#user {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    align-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 11.9vw;
+    color: #565264;
+    background: rgba(247, 183, 183, 0.70);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+#g-left {
+    min-height: 344px;
+    background: no-repeat center url("../Images/user2.png");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    margin: 3vw;
+    filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.5));
+}
+#h-right {
+    min-height: 344px;
+    background: no-repeat center url("../Images/round5.png");
+    background-size: contain;
+    background-position: center;
+    padding: 0vw;
+}
+.tableText {
+    font-family: 'Roboto', sans-serif;
+    color: #565264;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5vw;
+}
+#long{
+	margin-top:3vw;
+}
+.quoteBox {
+    color: #7B253D;
+    font-family: 'Caveat';
+    font-size: 7vw;
+    line-height: 6.5vw;
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 5vw;
+}
+.quoteBox2 {
+    color: #7B253D;
+    font-family: 'Caveat';
+    font-size: 7vw;
+    line-height: 6.5vw;
+    text-align: center;
+    margin-left: 8vw;
+    margin-right: 8vw;
+}
+/*.............DARK GREY SECTION.................*/
+#darkGrey {
+    background-color: #565264;
+    padding-top: 10vw;
+    padding-bottom: 15vw;
+}
+#darkGrey .Titles {
+    color: #F3D9DA;
+}
+#darkGrey p {
+    color: #F3D9DA;
+    margin-top: 5vw;
+}
+#darkGrey .flickity-page-dots .dot {
+    border: 1px solid #F3D9DA;
+}
+/* fill-in selected dot */
+#darkGrey .flickity-page-dots .dot.is-selected {
+    background: #F3D9DA;
+}
+/*................ORANGE SECTION....................*/
+#orange {
+    background-color:#f3a685;
+    padding-top: 15vw;
+    padding-bottom: 10vw;
+}
+#orange p {
+    margin-top: 5vw;
+    color: #3E3951;
+}
+#orange strong {
+    font-family: 'Caveat';
+    font-size: 6.5vw;
+    color: #3E3951;
+    font-weight: bold;
+}
+#orange .Titles {
+    color: #3E3951;
+}
+#orange h5 {
+    color: #3E3951;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    font-weight: 100;
+}
+#i-left {
+    min-height: 300px;
+    background: no-repeat center url("../Images/sketch1.png");
+    background-size: contain;
+    background-position: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
+}
+#j-right {
+    min-height: 300px;
+    background: no-repeat center url("../Images/sketch2.png");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
+}
+#k-left {
+    min-height: 300px;
+    background: no-repeat center url("../Images/sketch3.png");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, .5));
+}
+/*.....................WHITE SECTION......................*/
+#white {
+    background-color: #FBEADC;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#white .Titles{
+	margin-left: auto;
+	margin-right: auto;
+}
+#white p {
+    margin-top: 2vw;
+}
+#white h3 {
+    color: #F04D07;
+}
+#white h4 {
+    color: #F04D07;
+    text-align: center;
+}
+#white h5 {
+    color: #F04D07;
+    font-size: 7.5vw;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+    font-weight: 100;
+}
+#white .carousel-container {
+    margin-bottom: 15vw;
+}
+.flickity-page-dots .dot {
+    border: 1px solid #F04D07;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+    background: #F04D07;
+}
+/*.....................AZURE SECTION......................*/
+#azure {
+    background-color: #1a3342;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+}
+#azure .Titles {
+    color: #efdbcb;
+	margin-left: auto;
+	margin-right: auto;
+}
+#azure h5 {
+    color: #F7723A;
+    font-size: 7.5vw;
+    margin-top: 8vw;
+    margin-bottom: 2vw;
+    font-weight: 100;
+}
+#azure p {
+    color: #efdbcb;
+    margin-top: 2vw;
+}
+#azure .carousel-container {
+    margin-bottom: 10vw;
+}
+audio {
+    display: block !important;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 7vw;
+    width: 60%;
+}
+/*...................LIGHT BLUE...................*/
+#lightBlue {
+    background-color: #CEDDDD;
+    padding-top: 10vw;
+    padding-bottom: 5vw;
+}
+#lightBlue .Titles {
+	margin-bottom:5vw;
+    color: #23516D;
+}
+#lightBlue strong {
+    color: #23516D;
+}
+#lightBlue p {
+    margin-top: 6vw;
+}
+#lightBlue h5 {
+    color: #23516D;
+    font-size: 9vw;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    font-weight: 100;
+}
+#lightBlue #name{
+	margin-top:5vw;
+}
+#l-left {
+    min-height: 344px;
+    background: no-repeat center url("../Images/fin1.jpg");
+    background-size: contain;
+    background-position: center;
+}
+#m-right {
+    min-height: 344px;
+    background: no-repeat center url("../Images/fin2.jpg");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+#n-left {
+    min-height: 344px;
+    background: no-repeat center url("../Images/fin3.jpg");
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    text-align: center;
+}
+/*...........FOOTER MOBILE............*/
+.footer-distributed {
+    background-color:#302f2d;
+    display: block;
+    width: 100%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+.footer-links {
+    font-family: 'Roboto Condensed';
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color:#C65B0C;
+    text-align: center;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 4.5vw;
+}
+.email {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+.email a {
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+    font-size: 4.8vw;
+    color: #C65B0C;
+}
+@media (min-width: 478px) {
+    /*Common items.....*/
+    .Titles {
+        font-size: 5vw;
+    }
+    p {
+        margin-top: 5vw;
+        font-size: 2.5vw;
+        line-height: 3.5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .mobileP {
+        display: block;
+    }
+    .banner-home {
+        height: 75vw;
+    }
+    #smallTitle {
+        font-size: 4.8vw;
+        padding-top: 22%;
+        margin-left: 12%;
+    }
+    #title {
+        font-size: 8.2vw;
+        margin-left: 12%;
+    }
+    #titleDescription {
+        font-size: 5vw;
+        margin-left: 12%;
+        margin-right: 10%;
+        line-height: 4vw;
+    }
+    /*.......navigation bar........*/
+    nav ul li a, nav ul li a:visited {
+        font-size: 3.7vw;
+        padding: 15px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+
+    /*text inside the dropdown*/
+    nav ul li ul li a {
+        font-size: 3.2vw;
+        font-weight: 100;
+        padding: 15px;
+        line-height: 20px;
+    }
+    /*........GREY SECTION............*/
+    #grey {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #grey .quote {
+        font-size: 4.5vw;
+        line-height: 5vw;
+        margin-left: 10%;
+        margin-right: 10%;
+        padding-top: 0;
+    }
+    .borderTitle {
+        margin-bottom: 5vw;
+    }
+    .topborder {
+        border-top-width: 0.1vw;
+        margin-bottom: 0.5vw;
+        margin-left: 35%;
+        margin-right: 35%;
+    }
+    .mainTitles {
+        font-size: 5.3vw;
+    }
+	.row{
+		margin-top:10vw;
+	}
+    h3 {
+        font-size: 5.5vw;
+		margin-top: 0vw;
+        margin-bottom: 1.5vw;
+    }
+    .WWH {
+        line-height: 3.4vw;
+        font-size: 2.5vw;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 3vw;
+		text-align: left;
+    }
+	#grey .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #grey .carousel-cell img {
+        display: block;
+        max-height: 400px;
+        margin: 0 auto;
+        max-width: 500px;
+        width: auto;
+    }
+    /*........PINK SECTION....*/
+    #pink {
+        padding-top: 5vw;
+        padding-bottom: 10vw;
+    }
+    #user {
+        font-size: 10vw;
+    }
+    #g-left {
+        min-height: 344px;
+    }
+    #h-right {
+        min-height: 344px;
+    }
+    .tableText {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+	#long{
+		line-height: 3.5vw;
+        font-size: 2.5vw;
+	}
+    .quoteBox {
+        font-size: 4.5vw;
+        line-height: 5vw;
+        text-align: center;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        margin-bottom: 5vw;
+    }
+    .quoteBox2 {
+        font-size: 4.5vw;
+        line-height: 5vw;
+        margin-left: 12vw;
+        margin-right: 12vw;
+    }
+    /*......DARK GREY SECTION.........*/
+    #darkGrey {
+        padding-top: 10vw;
+        padding-bottom: 15vw;
+    }
+    #darkGrey .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+    #darkGrey .carousel-cell img {
+        display: block;
+        max-height: 400px;
+        margin: 0 auto;
+        max-width: 500px;
+        width: auto;
+    }
+    /*...........ORANGE SECTION........*/
+    #orange {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #orange .Titles {
+        margin-bottom: 5vw;
+    }
+    #orange strong {
+        font-size: 4vw;
+    }
+    #orange h5 {
+        font-size: 6.2vw;
+    }
+    #orange .tableTextR {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+		margin-bottom:8vw;
+		margin-top:2vw;
+    }
+    #orange .tableTextL {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+		margin-bottom:5vw;
+		margin-top:2vw;
+    }
+    #orange p {
+        margin-bottom: 0;
+        margin-top: 8vw;
+    }
+    #i-left {
+        min-height: 320px;
+    }
+    #j-right {
+        min-height: 320px;
+    }
+    #k-left {
+        min-height: 320px;
+    }
+    /*...........WHITE SECTION........*/
+    #white .Titles {
+        font-size: 4.8vw;
+    }
+    #white h5 {
+        font-size: 5.5vw;
+		margin-top:3vw;
+    }
+	#white .carousel-container {
+    margin-bottom: 10vw;
+}
+    #white .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+	#white .carousel-cell img {
+        display: block;
+        max-height: 450px;
+        margin: 0 auto;
+        max-width: 550px;
+        width: auto;
+    }
+    /*.......AZURE SECTION..........*/
+    #azure {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #azure h5 {
+        font-size: 5.5vw;
+		margin-top:3vw;
+    }
+    #azure p {
+        margin-bottom: 5vw;
+    }
+   #azure .carousel-container {
+    margin-bottom: 10vw;
+}
+    #azure .carousel-cell {
+        width: 100%;
+        margin-right: 0px;
+    }
+	#azure .carousel-cell img {
+        display: block;
+        max-height: 450px;
+        margin: 0 auto;
+        max-width: 550px;
+        width: auto;
+    }
+    audio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-height: 4vw;
+        width: 50%;
+    }
+    /*.....LIGHT BLUE SECTION........*/
+    #lightBlue {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #lightBlue .Titles {
+        margin-bottom: 5vw;
+        Font-size: 4.5vw;
+    }
+    #l-left {
+        min-height: 374px;
+        background-size: cover;
+    }
+    #m-right {
+        min-height: 374px;
+        background-size: cover;
+    }
+    #n-left {
+        min-height: 374px;
+        background-size: cover;
+    }
+    #lightBlue h5 {
+        font-size: 6.5vw;
+    }
+    #lightBlue .tableTextR {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+    }
+    #lightBlue .tableTextL {
+        line-height: 3.5vw;
+        font-size: 2.5vw;
+    }
+    /*.........FOOTER SECTION.........*/
+    .footer-distributed {
+        margin-top: 0vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 5vw;
+    }
+    .footer-links a {
+        font-size: 3vw;
+    }
+    .email {
+        margin-bottom: 5vw;
+    }
+    .email a {
+        font-size: 3.3vw;
+    }
+}
+@media (min-width: 767px) {
+    .video-responsive {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3vw;
+        overflow: hidden;
+        padding-top: 4%;
+        padding-bottom: 4%;
+        position: relative;
+        height: 35vw;
+    }
+    .video-responsive iframe {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        margin: auto;
+    }
+    .banner-home {
+        height: 60vw;
+    }
+    #smallTitle {
+        font-size: 4vw;
+        margin-left: 15%;
+        padding-top: 21%
+    }
+    #title {
+        font-size: 6.8vw;
+        margin-left: 15%;
+    }
+    #titleDescription {
+        font-size: 3.6vw;
+        margin-left: 15%;
+        line-height: 2.5vw;
+    }
+    /*.......NAVIGATION BAR........*/
+    .nav-list {
+        display: flex !important;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .navigation {
+        height: 50px;
+        width: 80%;
+        margin-top: -4%;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 1px 1px 5px 1px #C65B0C;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        position: relative;
+        flex: 1;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-weight: 300;
+        font-size: 2.3vw;
+        padding: 5px 5px;
+        line-height: 40px;
+        text-align: center;
+    }
+    /*text inside the dropdown*/
+    nav ul li ul li a {
+        font-size: 2vw;
+        padding: 15px;
+        line-height: 20px;
+    }
+    .sticky {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+    /*......GREY SECTION........*/
+    #grey {
+        padding-top: 10vw;
+        padding-bottom: 10vw;
+    }
+    #grey .quote {
+        font-size: 3.6vw;
+        line-height: 4.2vw;
+        margin-left: 14%;
+        margin-right: 14%;
+        margin-bottom: 6vw;
+    }
+    #grey .borderTitle {
+        margin-bottom: 5vw;
+    }
+    #grey .topborder {
+		border-top-width: 0.1vw;
+        margin-bottom: 0.5vw;
+        margin-left: 38%;
+        margin-right: 38%;
+    }
+    #grey .mainTitles {
+        font-size: 4.3vw;
+    }
+	#grey .carousel{
+		height:500px;
+	}
+   #grey .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #grey .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #grey .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #grey .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #grey .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+    #grey h3 {
+        float: left;
+        font-size: 4.7vw;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin: 0;
+        margin-left: 0;
+        position: absolute;
+        transform: translateY(-50%);
+        top: 50%;
+    }
+    #grey .WWH {
+        font-size: 1.8vw;
+        text-align: left;
+        margin-left: 20%;
+        margin-right: 0;
+        margin-top: 4vw;
+        margin-bottom: 0;
+        line-height: 2.8vw;
+    }
+    .column {
+        width: 75%;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .row {
+        margin-top: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /* Clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+	
+    /*........PINK SECTION......*/
+    #pink {
+        padding-top: 5vw;
+        padding-bottom: 10vw;
+    }
+    #user {
+        font-size: 6vw;
+		padding:10vw 3vw;
+    }
+    #g-left {
+        min-height: 400px;
+    }
+    #h-right {
+        min-height: 400px;
+    }
+    #pink .tableText {
+       line-height: 3.2vw;
+        font-size: 2vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        margin-bottom: 5vw;
+        margin-top: 5vw;
+    }
+    .quoteBox {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        text-align: center;
+        margin-left: 16vw;
+        margin-right: 16vw;
+        margin-bottom: 5vw;
+    }
+    .quoteBox2 {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-left: 16vw;
+        margin-right: 16vw;
+    }
+    /*.........DARK GEY SECTION......*/
+    #darkGrey {
+        padding-top: 8vw;
+        padding-bottom: 15vw;
+    }
+    #darkGrey .Titles {
+        font-size: 4.5vw;
+    }
+    #darkGrey p {
+		line-height: 3.2vw;
+        font-size: 2vw;
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+	#darkGrey .carousel{
+		height:500px;
+	}
+   #darkGrey .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #darkGrey .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #darkGrey .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #darkGrey .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #darkGrey .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+
+    /*.....ORANGE SECTION.......*/
+    #orange {
+        padding-top: 8vw;
+        padding-bottom: 10vw;
+    }
+    #orange .Titles {
+        font-size: 4.3vw;
+        margin-bottom: 5vw;
+    }
+    #orange strong {
+        font-size: 3.3vw;
+    }
+    #orange h5 {
+        font-size: 5.5vw;
+        margin-bottom: 3vw;
+    }
+    #orange .tableTextR {
+        line-height: 3.2vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 8vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+    #orange .tableTextL {
+        line-height: 3.2vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 8vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+    #orange p {
+        line-height: 3.2vw;
+        font-size: 2vw;
+        margin-top: 5vw;
+        margin-bottom: 0vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+    #i-left {
+        min-height: 370px;
+    }
+    #j-right {
+        min-height: 370px;
+    }
+    #k-left {
+        min-height: 370px;
+    }
+    /*.......WHITE SECTION........*/
+	#white{
+		padding-top: 8vw;
+	}
+    #white .Titles {
+        font-size: 4.3vw;
+    }
+    #white h5 {
+        font-size: 4.5vw;
+        margin-bottom: 0vw;
+        margin-top: 3vw;
+    }
+    #white p {
+        line-height: 3.2vw;
+        font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 0vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+    #white .carousel-container {
+        margin-bottom: 5vw;
+    }
+		#white .carousel{
+		height:500px;
+	}
+   #white .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #white .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #white .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #white .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #white .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+    /*......AZURE SECTION............*/
+	#azure{
+		padding-top:8vw;}
+    #azure .Titles {
+        font-size: 4.3vw;
+    }
+    #azure h5 {
+        font-size: 4.5vw;
+        margin-bottom: 0vw;
+        margin-top: 3vw;
+    }
+    #azure p {
+    line-height: 3.2vw;
+    font-size: 2vw;
+        margin-top: 2vw;
+        margin-bottom: 5vw;
+        margin-left: 14vw;
+        margin-right: 13vw;
+    }
+    #azure .carousel-container {
+        margin-bottom: 6vw;
+    }
+	#azure .carousel{
+		height:500px;
+	}
+   #azure .carousel-container {
+        margin-top: 3vw;
+	     height:500px;
+    }
+    #azure .carousel-cell {
+        width: 100%;
+        height: 500px;
+    }
+    #azure .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 750px;
+        height: 500px;
+    }
+    #azure .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+    #azure .flickity-page-dots .dot {
+        height: 10px;
+        width: 10px;
+    }
+    audio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 6vw;
+        max-height: 4vw;
+        width: 40%;
+    }
+    /*......LIGHT BLUE........*/
+    #lightBlue {
+        padding-top: 8vw;
+        padding-bottom: 10vw;
+    }
+    #lightBlue .Titles {
+        Font-size: 4.5vw;
+    }
+    #l-left {
+        min-height: 484px;
+    }
+    #m-right {
+        min-height: 484px;
+    }
+    #n-left {
+        min-height: 444px;
+    }
+    #lightBlue .tableTextR {
+    line-height: 3.2vw;
+    font-size: 2vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    #lightBlue .tableTextL {
+    line-height: 3.2vw;
+    font-size: 2vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    #lightBlue h5 {
+        font-size: 5.5vw;
+    }
+    #lightBlue p {
+         line-height: 3.2vw;
+         font-size: 2vw;
+        margin-left: 14vw;
+        margin-right: 14vw;
+    }
+    /*......FOOTER SECTION.......*/
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .footer-links a {
+        font-size: 2.5vw;
+    }
+    .email {
+        margin-bottom: 3vw;
+    }
+    .email a {
+        font-size: 2.8vw;
+    }
+}
+    @media (min-width: 1024px) {
+        /*............COMMON ITEMS...................*/
+        .Titles {
+            font-weight: 400;
+            font-size: 3vw;
+            text-align: center;
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        h5 {
+            font-size: 3vw;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 2vw;
+            margin-bottom: auto;
+        }
+        .mainTitles {
+            font-size: 3vw;
+        }
+        p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 7vw;
+            margin-bottom: 5vw;
+        }
+        .video-responsive {
+            background-color: black;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 2vw;
+            overflow: hidden;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            position: relative;
+            height: 25vw;
+        }
+        .video-responsive iframe {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            margin: auto;
+        }
+        .tableText {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 7vw;
+            margin-bottom: 3vw;
+        }
+        strong {
+            font-size: 1.3vw;
+            font-weight: 500;
+        }
+        .mobileP {
+            display: inline;
+        }        /*.............HEADER.......................*/
+        .banner-home {
+            height: 41vw;
+            background-attachment: fixed;
+            background-position: center;
+        }
+        #smallTitle {
+            font-size: 2.7vw;
+            margin-left: 17%;
+            padding-top: 13%;
+        }
+        #title {
+            font-size: 4.8vw;
+            margin-left: 17%;
+            margin-bottom: 0vw;
+        }
+        #titleDescription {
+            font-size: 2.6vw;
+            margin-left: 17%;
+            line-height: 0.5vw;
+        }
+        /*.......NAVIGATION BAR.........*/
+        .navigation {
+            height: 60px;
+            margin-top: -2.5%;
+        }
+        nav {
+            padding: 0;
+        }
+        .sticky {
+            margin-top: 0%;
+        }
+        .sticky + .content {
+            padding-top: 20px;
+        }
+        nav ul li a, nav ul li a:visited {
+            font-size: 1.7vw;
+            line-height: 50px;
+        }
+        /*text inside the dropdown*/
+        nav ul li ul li a {
+            font-size: 1.6vw;
+        }
+
+        /*................ GREY SECTION...................*/
+        #grey {
+            padding-top: 0vw;
+            padding-bottom: 7vw;
+        }
+        #grey .quote {
+            font-size: 2.6vw;
+            line-height: 3vw;
+            margin-left: 21%;
+            margin-right: 21%;
+            margin-top: 0%;
+            margin-bottom: 5vw;
+            padding-top: 7vw;
+        }
+        #grey .borderTitle {
+            margin-bottom: 3vw;
+        }
+        #grey .topborder {
+            border-top-width: 0.15vw;
+            margin-left: 42%;
+            margin-right: 42%;
+            margin-bottom: 0vw;
+        }
+        #grey .mainTitles {
+            font-size: 3.3vw;
+        }
+        #grey h3 {
+            line-height: 1vw;
+            font-size: 3.3vw;
+            margin-left: 1.5vw;
+            margin: 0;
+        }
+        #grey .WWH {
+            line-height: 2vw;
+            font-size: 1.2vw;
+            text-align: left;
+            margin-left: 20%;
+            margin-right: 0;
+            margin-top: 4vw;
+            margin-bottom: 0;
+        }
+        .column {
+            width: 60%;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .row {
+            margin-top: 5vw;
+            margin-bottom: 0vw;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    #grey .carousel-container {
+        margin-top: 3vw;
+	     height:550px;
+    }
+	#grey .carousel{
+		height:550px;
+	}
+    #grey .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #grey .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #grey .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+      #grey .flickity-page-dots .dot {
+            width: 11px;
+            height: 11px;
+     }
+        /*.........PINK SECTION - STAGGERED LAYOUT.............*/
+        #pink {
+            padding-top: 4vw;
+            padding-bottom: 0vw;
+        }
+        #user {
+            font-size: 5.5vw;
+			padding:3vw;
+        }
+        #pink .tableText {
+            text-align: left;
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 5vw;
+            margin-bottom: 2vw;
+        }
+        #pink .quoteBox {
+            font-size: 2.3vw;
+            line-height: 2.5vw;
+            text-align: center;
+            margin-left: 16%;
+            margin-right: 16%;
+            margin-bottom: 2vw;
+        }
+        #pink .quoteBox2 {
+            color: #900028;
+            font-size: 3.2vw;
+            line-height: 3vw;
+            font-weight: 500;
+            text-align: center;
+            margin-left: 18%;
+            margin-right: 18%;
+        }
+        #pink #section-g {
+            margin-bottom: 3vw;
+            align-items: center;
+        }
+        #section-h {
+            align-items: center;
+            margin-bottom: 5vw;
+        }
+        .banner-faces {
+            background-image: url("../Images/faces.png");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: repeat;
+            background-size: cover;
+            display: flex;
+            align-items: center;
+            height: 27vw;
+        }
+        #g-left {
+            min-height: 500px;
+            margin: 0vw 0vw 0vw 3vw;
+        }
+        #g-right {
+            min-height: 500px;
+        }
+        #h-right {
+            min-height: 500px;
+            background-size: contain;
+            margin-right: 5vw;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+        }
+        #section-a .content-text, #section-f .content-text {
+            columns: 2;
+            column-gap: 2em;
+        }
+        #section-a .content-text p, #section-f .content-text p {
+            padding-top: 0;
+        }
+        .content-wrap, #section-b ul {
+            grid-column: 2/4;
+        }
+        .box, #main-footer div {
+            grid-column: span 2;
+        }
+        /** 
+   * Mobile First - The images are placed above the text by
+   * default.
+   * Only Re-order Columns for Larger Displays 
+   * These two lines of code is where the rubber meets the road.
+   * This only affects the second row where we will put the text
+   * on the left and the image on the right.
+   */
+        #section-h.grid div:nth-of-type(1) {
+            order: 2; /* This is the image. Make it go to the right. */
+        }
+        #section-h.grid div:nth-of-type(2) {
+            order: 1; /* This is the text. Make it go to the left. */
+        }
+        /*.............DARK GREY SECTION.................*/
+        #darkGrey {
+            padding-top: 7vw;
+            padding-bottom: 10vw;
+        }
+        #darkGrey .Titles {
+            font-size: 3vw;
+        }
+        #darkGrey p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 21vw;
+            margin-right: 21vw;
+            margin-top: 3vw;
+        }
+		     
+    #darkGrey .carousel-container {
+        margin-top: 3vw;
+	     height:550px;
+    }
+		#grey .carousel{
+		height:550px;
+	}
+    #darkGrey .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #darkGrey .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #darkGrey .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+		#darkGrey .flickity-page-dots{
+			bottom:-75px;
+		}
+      #darkGrey .flickity-page-dots .dot {
+            width: 11px;
+            height: 11px;
+     }
+ 
+     #darkGrey .carousel-cell.is-selected {
+            transition: transform 1.0s ease;
+            z-index: 50;
+        }
+     #darkGrey .carousel-cell.is-selected:hover {
+            transform: scale(1.2);
+        }
+        /*.............ORANGE SECTION.................*/
+        #orange {
+            padding-top: 7vw;
+            padding-bottom: 5vw;
+        }
+        #orange .Titles {
+            font-size: 3vw;
+        }
+        #orange strong {
+            font-size: 2.2vw;
+        }
+        #orange h5 {
+            margin: 5vw 15% 2vw;
+            font-size: 4.5vw;
+        }
+        #orange p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 22vw;
+            margin-right: 22vw;
+        }
+        #section-i {
+            align-items: center;
+            margin-bottom: 2vw;
+        }
+        #section-j {
+            align-items: center;
+            margin-bottom: 2vw;
+        }
+        #section-k {
+            align-items: center;
+            margin-bottom: 2vw;
+        }
+        #i-left {
+            min-height: 454px;
+            margin-left: 5vw;
+        }
+        #j-right {
+            min-height: 454px;
+            margin-right: 5vw;
+        }
+        #k-left {
+            min-height: 454px;
+            margin-left: 5vw;
+        }
+        #section-j.grid div:nth-of-type(1) {
+            order: 2; /* This is the image. Make it go to the right. */
+        }
+        #section-j.grid div:nth-of-type(2) {
+            order: 1; /* This is the text. Make it go to the left. */
+        }
+        #orange .tableTextR {
+            text-align: left;
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-top: 6vw;
+            margin-bottom: 5vw;
+            margin-left: 5vw;
+            margin-right: 10vw;
+        }
+        #orange .tableTextL {
+            text-align: left;
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-top: 7vw;
+            margin-bottom: 5vw;
+            margin-left: 10vw;
+            margin-right: 5vw;
+        }
+        /*...........WHITE SECTION................*/
+        #white {
+            padding-top: 7vw;
+            padding-bottom: 5vw;
+        }
+        #white .Titles {
+            font-size: 3vw;
+        }
+        #white h5 {
+            font-size: 3.4vw;
+            margin-bottom: 0vw;
+            margin-top: 2vw;
+        }
+        #white p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-top: 1vw;
+            margin-bottom: 0vw;
+            margin-left: 20vw;
+            margin-right: 20vw;
+        }
+		    #white .carousel-container {
+        margin-top: 3vw;
+	     height:550px;
+				 margin-bottom: 5vw;
+    }
+	#white .carousel{
+		height:550px;
+	}
+    #white .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #white .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #white .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+      #white .flickity-page-dots .dot {
+            width: 11px;
+            height: 11px;
+     }
+
+        /*.............AZURE SECTION.................*/
+        #azure {
+            padding-top: 6vw;
+            padding-bottom: 5vw;
+        }
+        #azure .Titles {
+            font-size: 3vw;
+        }
+        #azure h5 {
+            font-size: 3.4vw;
+            margin-left: 15%;
+            margin-right: 15%;
+            margin-top: 2vw;
+        }
+        #azure p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 1vw;
+            margin-bottom: 5vw;
+        }
+        #azure .video-responsive {
+            margin-bottom: 3vw;
+        }
+		    #azure .carousel-container {
+        margin-top: 3vw;
+				margin-bottom: 5vw;
+	     height:550px;
+    }
+	#azure .carousel{
+		height:550px;
+	}
+    #azure .carousel-cell {
+        width: 60%;
+        height: 550px;
+    }
+   #azure .carousel-cell img {
+        display: block;
+        max-height: 100%;
+        margin: 0 auto;
+        max-width: 850px;
+        height: 550px;
+    }
+    #azure .carousel-cell.is-selected {
+        transition: transform 1.0s ease;
+        z-index: 50;
+    }
+      #azure .flickity-page-dots .dot {
+            width: 11px;
+            height: 11px;
+     }
+        #azure #audioP {
+            margin-bottom: 2vw;
+        }
+        audio {
+            max-height: 2.8vw;
+            width: 25%;
+            margin-bottom: 3vw;
+        }
+        #azure .video-responsive {
+            background-color: black;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-bottom: 5vw;
+            overflow: hidden;
+            padding-top: 4%;
+            padding-bottom: 4%;
+            position: relative;
+            height: 25vw;
+        }
+        /*................LIGHT BLUE SECTION...................*/
+        #lightBlue {
+            padding-top: 6vw;
+            padding-bottom: 5vw;
+        }
+        #lightBlue .Titles {
+            font-size: 3vw;
+            margin-bottom: 3vw;
+        }
+        #lightBlue h5 {
+            font-size: 4vw;
+            margin-top: 5vw;
+        }
+        #l-left {
+            min-height: 500px;
+            background-size: cover;
+        }
+        #m-right {
+            min-height: 500px;
+            background-size: cover;
+        }
+        #n-left {
+            min-height: 500px;
+            background-size: cover;
+        }
+        #section-m.grid div:nth-of-type(1) {
+            order: 2; /* This is the image. Make it go to the right. */
+        }
+        #section-m.grid div:nth-of-type(2) {
+            order: 1; /* This is the text. Make it go to the left. */
+        }
+        #lightBlue .tableTextR {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-top: 4vw;
+            margin-bottom: 4vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            text-align: left;
+        }
+        #lightBlue .tableTextL {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-top: 4vw;
+            margin-bottom: 4vw;
+            margin-left: 5vw;
+            margin-right: 5vw;
+            text-align: left;
+        }
+        #lightBlue p {
+            line-height: 2vw;
+            font-size: 1.3vw;
+            margin-left: 20%;
+            margin-right: 20%;
+            margin-top: 2vw;
+            margin-bottom: 0vw;
+        }
+        #lightBlue #section-n {
+            margin-bottom: 5vw;
+        }
+        /*.............FOOTER SECTION.........*/
+        .footer-distributed {
+            padding-top: 2vw;
+            padding-bottom: 2vw;
+        }
+        .footer-links {
+            margin-top: 2vw;
+            margin-bottom: 1vw;
+        }
+        .footer-links a {
+            font-size: 1.5vw;
+        }
+        .email {
+            margin-bottom: 2vw;
+        }
+        .email a {
+            font-size: 1.7vw;
+        }
+    }
+}

@@ -1,0 +1,638 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ECECEC;
+}
+/*..............INTRO SECTION - MOBILE....................*/
+.sectionBckg {
+    padding-bottom: 10vw;
+}
+.videoBOX {
+    width: 100%;
+    height: 55vw;
+    position: relative;
+}
+#videoBG {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -100;
+}
+/*....NAV BAR MOBILE FIRST...*/
+.navigation {
+    width: 100%;
+    height: 60px;
+    background: rgb(98, 96, 108);
+    z-index: 1000;
+}
+.nav-mobile {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgb(98, 96, 108);
+    height: 60px;
+    width: 60px;
+}
+.nav-container {
+    margin: 0 auto;
+}
+nav {
+    display: grid;
+    position: relative;
+    padding: 60px 0 15px;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+nav ul li {
+    float: none;
+}
+nav ul li a, nav ul li a:visited {
+    font-family: 'Roboto condensed';
+    font-weight: 100;
+    font-size: 4.8vw;
+    display: block;
+    padding: 15px;
+    line-height: 20px;
+    background: rgb(98, 96, 108);
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+/*hovering over a button*/
+nav ul li a:hover, nav ul li a:visited:hover {
+    background: rgba(211, 79, 78, 1.00);
+}
+nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
+    padding-left: 2px;
+    content: '▾';
+}
+/*BURGER TO X ANIMATION*/
+#nav-toggle {
+    position: absolute;
+    left: 10px;
+    top: 17px;
+    cursor: pointer;
+    padding: 10px 35px 16px 0px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+    cursor: pointer;
+    border-radius: 1px;
+    height: 4px;
+    width: 35px;
+    background: #ffffff;
+    position: absolute;
+    display: block;
+    content: '';
+    transition: all 300ms ease-in-out;
+}
+#nav-toggle span:before {
+    top: -10px;
+}
+#nav-toggle span:after {
+    bottom: -10px;
+}
+#nav-toggle.active span {
+    background-color: transparent;
+}
+#nav-toggle.active span:before, #nav-toggle.active span:after {
+    top: 0;
+}
+#nav-toggle.active span:before {
+    transform: rotate(45deg);
+}
+#nav-toggle.active span:after {
+    transform: rotate(-45deg);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    margin-top: 0px;
+}
+.sticky + .content {
+    padding-top: 20px;
+}
+#myStory {
+    font-family: 'Caveat', sans-serif;
+    font-weight: 400;
+    align-content: center;
+    position: absolute;
+    top: 85%;
+    left: 34%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    color: #565264;
+}
+.quote {
+    font-family: 'Caveat', sans-serif;
+    text-align: center;
+    color: #3E3D45;
+    font-size: 7vw;
+    line-height: 8vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.buttonBox {
+    text-align: center;
+    margin-bottom: 15vw;
+}
+.Button {
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    padding: 6px 35px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #D34F4E;
+    font-size: 4.5vw;
+    letter-spacing: 0.2vw;
+    box-shadow: 1px 1px 5px 0 #565264;
+}
+.Button:hover {
+    background-color: #62606C;
+}
+.borderTitle {
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+}
+.icon-wrapper {
+    text-align: center;
+    margin-bottom: 5vw;
+}
+.topborder {
+    border-top-style: solid;
+    border-top-width: 1.4px;
+    border-top-color: white;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 3vw;
+}
+.mainTitle {
+    color: #62606C;
+    font-family: 'Caveat';
+    font-size: 8.5vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    max-width: 100%;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+    box-sizing: border-box;
+    align-content: center;
+    width: 40vw;
+}
+.WWH {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3D45;
+    display: block;
+    text-align: center;
+    line-height: 5.5vw;
+    font-size: 4vw;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 5vw;
+    word-break: keep-all;
+}
+h2 {
+    color: #D34F4E;
+    font-family: 'Caveat';
+    font-size: 6vw;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vw;
+}
+label {
+    font-family: 'Roboto', sans-serif;
+    color: #3E3D45;
+    margin-left: 2vw;
+    font-size: 3.8vw !important;
+}
+/* Style the submit button with a specific background color etc */
+#fcf-button {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #D34F4E;
+    height: 9vw;
+    padding: 5px 35px;
+    font-size: 4.2vw;
+    letter-spacing: 0.2vw;
+    box-shadow: 1px 1px 5px 0 #565264;
+    border: none;
+    cursor: pointer;
+    display: block !important;
+    margin: 5vw auto;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+#fcf-button:hover {
+    background-color: #62606C;
+}
+.fcf-attribution {
+    margin-right: 2vw;
+}
+#fcf-thank-you p {
+    text-align: center !important;
+    color: #D34F4E !important;
+    font-family: 'Caveat' !important;
+    font-size: 8vw !important;
+    margin-left: 15%;
+    margin-right: 15%;
+    line-height: normal;
+}
+fcf-tnak-you #text {
+    text-align: right !important;
+    font-size: 4vw !important;
+    margin-right: 2vw !important;
+}
+.footer-distributed {
+    background-color: #62606C;
+    display: block;
+    width: 100%;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
+    text-align: center;
+}
+.footer-links {
+    font-family: 'Roboto Condensed';
+    margin-top: 5vw;
+    margin-bottom: 3vw;
+    color: #D34F4E;
+    text-align: center;
+}
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 4.5vw;
+}
+.email {
+    margin-bottom: 5vw;
+    text-align: center;
+}
+.email a {
+    font-family: 'Roboto Condensed';
+    text-decoration: none;
+    font-size: 4.8vw;
+    color: #ef6c6c;
+}
+@media (min-width: 478px) {
+    /*.......navigation bar........*/
+    nav ul li a, nav ul li a:visited {
+        font-size: 3.7vw;
+        padding: 15px;
+        line-height: 20px;
+    }
+    #myStory {
+        top: 82%;
+        left: 34%;
+        font-size: 8vw;
+    }
+    .quote {
+        font-size: 4.5vw;
+        line-height: 5vw;
+        margin-left: 8%;
+        margin-right: 8%;
+        margin-top: 8vw;
+        margin-bottom: 6vw;
+    }
+    .buttonBox {
+        margin-bottom: 10vw;
+    }
+    .Button {
+        font-size: 3.2vw;
+        border-radius: 6px;
+        padding: 4px 40px;
+    }
+    .borderTitle {
+        margin-bottom: 5vw;
+    }
+    .icon-wrapper {
+        text-align: center;
+        margin-bottom: 5vw;
+    }
+    .topborder {
+        border-top-width: 1.8px;
+        margin-left: 35%;
+        margin-right: 35%;
+        padding-top: 3vw;
+    }
+    .mainTitle {
+        font-size: 6.5vw;
+    }
+    img {
+        width: 30vw;
+    }
+    .WWH {
+        line-height: 4.3vw;
+        font-size: 2.6vw;
+        margin-left: 9%;
+        margin-right: 9%;
+        margin-bottom: 5vw;
+    }
+    h2 {
+        font-size: 5vw;
+        margin-top: 10vw;
+    }
+    .field {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        margin-left: 1vw;
+        font-size: 2.8vw !important;
+    }
+    /* Style the submit button with a specific background color etc */
+    #fcf-button {
+        border-radius: 6px;
+        padding: 0 30px !important;
+        font-size: 3.3vw;
+        height: 5.5vw;
+        margin: 5vw auto;
+    }
+    #fcf-thank-you p {
+        font-size: 5vw !important;
+        margin-left: 19%;
+        margin-right: 19%;
+    }
+    fcf-tnak-you #text {
+        font-size: 2.6vw !important;
+    }
+    .footer-distributed {
+        margin-top: 0vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 5vw;
+    }
+    .footer-links a {
+        font-size: 3vw;
+    }
+    .email {
+        margin-bottom: 5vw;
+    }
+    .email a {
+        font-size: 3.3vw;
+    }
+}
+@media (min-width: 767px) {
+    .sectionBckg {
+        margin-top: -4vw;
+    }
+    #myStory {
+        font-size: 7vw;
+        top: 80%;
+        left: 34%;
+    }
+    /*.......NAVIGATION BAR........*/
+    .nav-list {
+        display: flex !important;
+    }
+    .nav-mobile {
+        display: none;
+    }
+    .navigation {
+        height: 50px;
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+        box-shadow: 1px 1px 5px 1px #565264;
+    }
+    nav {
+        padding: 0;
+    }
+    nav ul li {
+        position: relative;
+        flex: 1;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-weight: 300;
+        font-size: 2.3vw;
+        padding: 5px 5px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .sticky {
+        width: 80%;
+        margin-top: 0%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    .sticky + .content {
+        padding-top: 20px;
+    }
+    .quote {
+        font-size: 3.5vw;
+        line-height: 4vw;
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-top: 6vw;
+        margin-bottom: 4vw;
+    }
+    .Button {
+        font-size: 2.6vw;
+        border-radius: 8px;
+    }
+    .borderTitle {
+        margin-bottom: 3vw;
+    }
+    .icon-wrapper {
+        margin-bottom: 5vw;
+    }
+    .topborder {
+        margin-left: 39%;
+        margin-right: 39%;
+    }
+    .mainTitle {
+        font-size: 5vw;
+    }
+    img {
+        width: 24vw;
+    }
+    .WWH {
+        line-height: 3.2vw;
+        font-size: 2vw;
+        margin-left: 12%;
+        margin-right: 12%;
+        margin-bottom: 5vw;
+    }
+    h2 {
+        font-size: 4vw;
+        margin-top: 5vw;
+    }
+    .field {
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        margin-left: 1vw;
+        font-size: 2vw !important;
+    }
+    /* Style the submit button with a specific background color etc */
+    #fcf-button {
+        border-radius: 6px;
+        padding: 0 35px !important;
+        font-size: 2.3vw;
+        height: 4.5vw;
+        margin: 3vw auto;
+    }
+    #fcf-thank-you p {
+        font-size: 3.6vw !important;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    fcf-tnak-you #text {
+        font-size: 2vw !important;
+    }
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 3vw;
+        margin-bottom: 2vw;
+    }
+    .footer-links a {
+        font-size: 2.1vw;
+    }
+    .email {
+        margin-bottom: 3vw;
+    }
+    .email a {
+        font-size: 2.4vw;
+    }
+}
+@media (min-width: 1024px) {
+    .sectionBckg {
+        margin-top: -3vw;
+        padding-bottom: 5vw;
+    }
+    .videoBOX {
+        height: 47vw;
+    }
+	#poster{
+		display: none;
+	}
+    #myStory {
+        font-size: 6vw;
+        top: 80%;
+        left: 35%;
+    }
+    .navigation {
+        height: 60px;
+    }
+    nav ul li a, nav ul li a:visited {
+        font-size: 1.7vw;
+        line-height: 50px;
+    }
+    .quote {
+        font-size: 2.9vw;
+        line-height: 3vw;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 6vw;
+        margin-bottom: 3vw;
+    }
+    .buttonBox {
+        margin-bottom: 7vw;
+    }
+    .Button {
+        font-size: 1.8vw;
+        padding: 4px 45px;
+        border-radius: 6px;
+    }
+    .borderTitle {
+        margin-top: 0;
+        margin-bottom: 2vw;
+    }
+    .icon-wrapper {
+        margin-bottom: 3vw;
+    }
+    .topborder {
+        margin-left: 41%;
+        margin-right: 41%;
+        padding-top: 1.5vw;
+    }
+    .mainTitle {
+        font-size: 3.4vw;
+    }
+    img {
+        width: 15vw;
+    }
+    .WWH {
+        line-height: 2vw;
+        font-size: 1.3vw;
+        margin-left: 22%;
+        margin-right: 22%;
+        margin-bottom: 6vw;
+    }
+    h2 {
+        font-size: 2.8vw;
+        margin-top: 5vw;
+    }
+    .field {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    label {
+        margin-left: 0vw;
+        font-size: 1.3vw !important;
+    }
+    /* Style the submit button with a specific background color etc */
+    #fcf-button {
+        border-radius: 6px;
+        padding: 0 30px !important;
+        font-size: 1.4vw;
+        height: 3vw;
+        margin: 2vw auto;
+    }
+    #fcf-thank-you p {
+        font-size: 3vw !important;
+        margin-left: 29%;
+        margin-right: 29%;
+    }
+    fcf-tnak-you #text {
+        font-size: 1.3vw !important;
+    }
+    .footer-distributed {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+    .footer-links {
+        margin-top: 2vw;
+        margin-bottom: 1vw;
+    }
+    .footer-links a {
+        font-size: 1.5vw;
+    }
+    .email {
+        margin-bottom: 2vw;
+    }
+    .email a {
+        font-size: 1.7vw;
+    }
+}
